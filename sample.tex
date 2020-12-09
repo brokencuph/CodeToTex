@@ -1,0 +1,23 @@
+\documentclass{report}
+\usepackage{geometry}
+\geometry{a4paper,scale=0.8}
+\usepackage{xeCJK}
+\usepackage{listings}
+\lstset{
+    numbers=left,
+    frame=single,
+    caption=\lstname,
+    breaklines=true
+}
+\begin{document}
+\lstlistoflistings
+
+\newpage
+
+
+\lstinputlisting[language=python,caption=这是个生成器]{gen_code_tex.py}
+
+\lstinputlisting[language=c++]{cpp-code/huffman copy.cpp}
+
+\lstinputlisting[language=c++,caption=Huffman Tree]{cpp-code/huffman.cpp}
+\end{document}

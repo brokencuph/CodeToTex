@@ -1,0 +1,1 @@
+python gen_code_tex.py sample.tex
